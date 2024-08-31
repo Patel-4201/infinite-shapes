@@ -1,0 +1,84 @@
+/*MARK: reset 
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*MARK: main 
+   */
+body {
+  display: flex;
+  align-items: center;
+  min-height: 643px;
+  justify-content: center;
+  background-color: black;
+}
+.anime1 {
+  width: 100px;
+  height: 100px;
+  background: brown;
+  position: absolute;
+  animation: 4s infinite alternate-reverse;
+  animation-name: anime1;
+  top: 40%;
+  left: 40%;
+  border: solid white;
+}
+.anime2 {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  position: absolute;
+  animation: 4s infinite alternate-reverse;
+  animation-name: anime1;
+  top: 60%;
+  left: 30%;
+  border: solid white;
+}
+.anime3 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: absolute;
+  animation: 4s infinite alternate-reverse;
+  animation-name: anime1;
+  top: 60%;
+  left: 50%;
+  border: solid white;
+}
+.anime4 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: absolute;
+  animation: 4s infinite alternate-reverse;
+  animation-name: anime1;
+  top: 80%;
+  left: 40%;
+  border: solid white;
+}
+/*MARK: keyframes 
+   */
+@keyframes anime1 {
+  0% {
+    transform: rotate(50deg);
+    border-radius: 60px;
+  }
+  25% {
+    transform: rotate(200deg);
+    border-radius: 60px 60px 10px 10px;
+  }
+  50% {
+    transform: rotate(260deg);
+    border-radius: 5px;
+  }
+  75% {
+    transform: rotate(300deg);
+    border-radius: 60px 60px 60px 0px;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-radius: 60px;
+  }
+}

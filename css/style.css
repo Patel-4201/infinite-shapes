@@ -1,11 +1,11 @@
-/*MARK: reset 
+/*MARK: Reset 
 */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/*MARK: main 
+/*MARK: Main 
    */
 body {
   display: flex;
@@ -58,7 +58,7 @@ body {
   left: 40%;
   border: solid white;
 }
-/*MARK: keyframes 
+/*MARK: Keyframes 
    */
    @keyframes anime1 {
     0% {

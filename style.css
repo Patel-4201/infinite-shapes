@@ -1,12 +1,8 @@
-/*MARK: Reset 
-*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/*MARK: Main 
-   */
 body {
   display: flex;
   align-items: center;
@@ -14,6 +10,7 @@ body {
   justify-content: center;
   background-color: black;
 }
+
 .anime1 {
   width: 100px;
   height: 100px;
@@ -58,27 +55,25 @@ body {
   left: 40%;
   border: solid white;
 }
-/*MARK: Keyframes 
-   */
-   @keyframes anime1 {
-    0% {
-      transform: rotate(50deg);
-      border-radius: 60px;
-    }
-    25% {
-      transform: rotate(200deg);
-      border-radius: 60px 60px 10px 10px;
-    }
-    50% {
-      transform: rotate(260deg);
-      border-radius: 5px;
-    }
-    75% {
-      transform: rotate(300deg);
-      border-radius: 60px 60px 60px 0px;
-    }
-    100% {
-      transform: rotate(360deg);
-      border-radius: 60px;
-    }
+@keyframes anime1 {
+  0% {
+    transform: rotate(50deg);
+    border-radius: 60px;
   }
+  25% {
+    transform: rotate(200deg);
+    border-radius: 60px 60px 10px 10px;
+  }
+  50% {
+    transform: rotate(260deg);
+    border-radius: 5px;
+  }
+  75% {
+    transform: rotate(300deg);
+    border-radius: 60px 60px 60px 0px;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-radius: 60px;
+  }
+}

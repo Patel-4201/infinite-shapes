@@ -18,8 +18,8 @@ body {
   position: absolute;
   animation: 4s infinite alternate-reverse;
   animation-name: anime1;
-  top: 40%;
-  left: 40%;
+  top: 24%;
+  left: 48%;
   border: solid white;
 }
 .anime2 {
@@ -29,8 +29,8 @@ body {
   position: absolute;
   animation: 4s infinite alternate-reverse;
   animation-name: anime1;
-  top: 60%;
-  left: 30%;
+  top: 45%;
+  left: 40%;
   border: solid white;
 }
 .anime3 {
@@ -40,8 +40,8 @@ body {
   position: absolute;
   animation: 4s infinite alternate-reverse;
   animation-name: anime1;
-  top: 60%;
-  left: 50%;
+  top: 45%;
+  left: 55%;
   border: solid white;
 }
 .anime4 {
@@ -51,8 +51,8 @@ body {
   position: absolute;
   animation: 4s infinite alternate-reverse;
   animation-name: anime1;
-  top: 80%;
-  left: 40%;
+  top: 67%;
+  left: 48%;
   border: solid white;
 }
 @keyframes anime1 {
@@ -75,5 +75,23 @@ body {
   100% {
     transform: rotate(360deg);
     border-radius: 60px;
+  }
+}
+@media only screen and (max-width: 435px) {
+  .anime1 {
+    top: 24%;
+    left: 37%;
+  }
+  .anime2 {
+    top: 45%;
+    left: 7%;
+  }
+  .anime3 {
+    top: 45%;
+    left: 70%;
+  }
+  .anime4 {
+    top: 67%;
+    left: 37%;
   }
 }
